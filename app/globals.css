@@ -1,5 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  --primary_colour: #040d17;
+  --secondary_colour: #112e6b;
+}
 
 body{
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
   background-color: #e8ecf1;
+  color: var(--primary_colour);
 }
+
+a{
+  color: var(--primary_colour);
+  font-weight: 400;
+}
+
+.title{
+  color: var(--primary_colour);
+}
+
+h1, h2, h3, h4, h5, h6{
+  color: var(--primary_colour);
+}
+
+button{
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+}
+
+.buttonStyle1{
+  padding: 13px 40px;
+  background-color: var(--primary_colour);
+  color: white;
+  border: 1px solid var(--primary_colour);
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+
+.buttonStyle1:hover{
+  color: var(--primary_colour);
+  background-color: white;
+  border: 1px solid var(--primary_colour);
+}
+
+
+
+
+
+
+header{
+  width: 100%;
+  padding: 30px; 
+}
+
+header nav{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom: 1px solid var(--primary_colour);
+}
+
+nav ul{
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+header a{
+  text-decoration: none;
+}
+
+header div span{
+  padding: 0px 20px;
+}
+
+nav ul li{
+  padding: 30px;
+}
+
+nav ul li a:hover{
+  color: var(--secondary_colour);
+  font-weight: 500;
+}
+
