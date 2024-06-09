@@ -9,7 +9,8 @@ export default function Chatbot() {
 
                     <div className="chatbot-area-title"></div>
 
-                    <div className="chatbot-area-body"></div>
+                    <div className="chatbot-area-body">
+                    </div>
 
                     <div className="chatbot-area-footer">
                         <input

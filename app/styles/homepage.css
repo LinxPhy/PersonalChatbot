@@ -1,0 +1,164 @@
+.homepage {
+    max-width: 1300px;
+    margin: auto;
+    background-color: var(--background_colour);
+}
+
+.homepage h2{
+    margin-left: 20px;
+}
+
+.homepage section {
+    padding: 0px 0px;
+}
+
+.hero {
+    width: 100%;
+    height: 500px;
+    border-radius: 15px;
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.slide.active {
+    opacity: 1;
+}
+
+
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 15px;
+    object-position: top;
+}
+
+.hero-content {
+    position: absolute;
+    left: 0%;
+    top: 20%;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.hero h3 {
+    color: white;
+    margin-bottom: 40px;
+    font-size: 4rem;
+    font-weight: bold;
+    width: min-content;
+
+}
+
+
+.hero h3,
+.hero button {
+    margin-left: 100px;
+}
+
+
+/* Popular */
+
+.popular{
+    max-width: 1300px;
+    width: 100%;
+    position: relative;
+}
+
+.popular-products{
+    display: flex;
+    gap: 10px;
+
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    overflow: hidden;
+    /* overflow-x: auto; */
+}
+
+.popular-product{
+    flex: 0 0 400px;
+    background-color: white;
+    padding: 15px 10px;
+    display: flex;
+    gap: 20px;
+    border: 3px solid var(--background_colour_darker);
+    border-radius: 15px;
+}
+
+
+.popular-product-main{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+
+.popular-product-main h3{
+    text-align: left;
+}
+
+.popular-product-main p{
+    text-align: left;
+    color: rgb(95, 95, 95);
+    font-size: 0.9rem;
+}
+
+.popular-product img{
+    min-width: 100px;
+    min-height: 125px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+/* Innovation */
+
+.innovation-content-image{
+    padding: 5px;
+    width: min-content;
+    border-radius: 15px;
+    background-color: var(--background_colour);
+}
+
+.innovation{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.innovation-content{
+    padding: 15px 10px;
+    flex-basis: 32.8%;
+    border: 3px solid var(--background_colour_darker);
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.innovation h5{
+    font-size: 0.9rem;
+    font-style: normal;
+}
+
+.innovation-content-main{
+    text-align: center;
+    width: 100%;
+}
+
+.innovation-content:hover{
+    background-color: var(--background_colour_darker);
+    cursor: pointer;
+}

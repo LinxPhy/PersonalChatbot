@@ -15,6 +15,7 @@ body{
   font-size: 1rem;
   font-style: normal;
   color: var(--primary_colour);
+  background-color: var(--background_colour);
 }
 
 a{
@@ -48,6 +49,21 @@ input[type="search"]{
   border-radius: 20px;
   font-weight: bold;
 }
+
+.buttonStyle2{
+  padding: 13px 40px;
+  background-color: white;
+  color: var(--primary_colour);
+  border: 1px solid white;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+/* .buttonStyle2:hover{
+  color: white;
+  background-color: var(--primary_colour);
+  border: 1px solid white;
+} */
 
 .buttonStyle1:hover{
   color: var(--primary_colour);
